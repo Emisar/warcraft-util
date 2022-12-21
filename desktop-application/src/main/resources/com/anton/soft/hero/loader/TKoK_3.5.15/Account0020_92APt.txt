@@ -1,0 +1,20 @@
+function PreloadFiles takes nothing returns nothing
+
+	call Preload( "
+
+Name: Emisar
+
+APT: 92
+
+DEDI PTS: 0
+
+Code:
+-la Ks!Mjl9q4vYWZd1qu3FGjWyppX936Aga2O!BYxJNKCEypTtWiLSXlqBdyfd52MG5qU0m2FFraE5j9oW41i9kieRoMZgrbpkunfUQbrjWgLJVZxuIcZ?bPjfGgtG
+
+
+" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

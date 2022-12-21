@@ -1,0 +1,17 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( " Name: emisar" )
+	call Preload( " Hero: Chaotic Knight" )
+	call Preload( " Level: 29" )
+	call Preload( " EXP: 12158" )
+	call Preload( " Gold: 3468" )
+	call Preload( " Star Glass: 0" )
+	call Preload( "---------------------------------------" )
+	call Preload( " Code: -l oET7ahDlQ2Cs3ZSk?o78?x!thM7D7H9uh4bla5bqRwtFXBGhrAYTFm9xtODmxIkj6NI18i!BLQbzitCjy1SeIwaOCxnAxEzw93bDL3IiD?DfAZEXCQAN3g2yaf8v" )
+	call Preload( "       -l2 Ixva5UnBTKvZ6sdMcIaHcErQDkaha0UXDwVB7zV6j4QgulRD!foODNUEQ3hNEoMRqmoPHJrl0tV5JQnRGPdWo473nECfEx54UOVh0OoJhchAfsxuntfmOrxmbLP" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

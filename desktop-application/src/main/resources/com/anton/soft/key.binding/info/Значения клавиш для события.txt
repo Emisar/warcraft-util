@@ -1,0 +1,102 @@
+============================ Значение клавиш мыши ============================
+
+NOBUTTON = 0
+BUTTON1 = 1
+BUTTON2 = 2
+BUTTON3 = 3
+BUTTON4 = 4
+BUTTON5 = 5
+
+============================ Значение клавиш клавиатуры ============================
+
+Общий шаблон для выбора клавиши такой "VC_" + имя клавиши слитно и заглавными буквами.
+
+============================ ============================ ============================
+
+----- Lock keys -----
+VC_NUM_LOCK = "Num Lock"
+VC_CAPS_LOCK = "Caps Lock"
+VC_SCROLL_LOCK = "Scroll lock"
+
+----- Symbols keys -----
+VC_MINUS = "-"
+VC_EQUALS = "="
+VC_OPEN_BRACKET = "["
+VC_CLOSE_BRACKET = "]"
+VC_SLASH = "/"
+VC_BACK_SLASH = "\"
+VC_QUOTE = "'"
+VC_BACKQUOTE = "`"
+VC_COMMA = ","
+VC_PERIOD = "."
+VC_SEMICOLON = ";"
+VC_SPACE = " "
+
+----- Functional keys -----
+VC_ENTER = "Enter"
+VC_ESCAPE = "Escape"
+VC_BACKSPACE = "Backspace"
+VC_PRINTSCREEN = "Print Screen"
+VC_PAUSE = "Pause"
+VC_TAB = "Tab"
+
+----- Constants for the 0 through 9 keys -----
+VC_F1		VC_F13
+VC_F2		VC_F14
+VC_F3		VC_F15
+VC_F4		VC_F16
+VC_F5		VC_F17
+VC_F6		VC_F18
+VC_F7		VC_F19
+VC_F8		VC_F20
+VC_F9		VC_F21
+VC_F10		VC_F22
+VC_F11		VC_F23
+VC_F12		VC_F24
+
+----- Constants for the 0 through 9 keys -----
+VC_1
+VC_2
+VC_3
+VC_4
+VC_5
+VC_6
+VC_7
+VC_8
+VC_9
+VC_0
+
+----- Constants for the A through Z keys -----
+VC_A		VC_N
+VC_B		VC_O
+VC_C		VC_P
+VC_D		VC_Q
+VC_E		VC_R
+VC_F		VC_S
+VC_G		VC_T
+VC_H		VC_U
+VC_I		VC_V
+VC_J		VC_W
+VC_K		VC_X
+VC_L		VC_Y
+VC_M		VC_Z
+
+----- Edit Key Zone -----
+VC_INSERT = "Insert"
+VC_DELETE = "Delete"
+VC_HOME = "Home"
+VC_END = "End"
+VC_PAGE_UP = "Page Up"
+VC_PAGE_DOWN = "Page Down"
+
+----- Begin Cursor Key Zone -----
+VC_UP = "Up Arrow Key"
+VC_LEFT = "Left Arrow Key"
+VC_RIGHT = "Right Arrow Key"
+VC_DOWN = "Down Arrow Key"
+
+----- Modifier and Control Keys -----
+VC_SHIFT = "Shift"
+VC_CONTROL = "Control"
+VC_ALT = "Alt" or "Option"
+VC_META = "Windows" or "Command"

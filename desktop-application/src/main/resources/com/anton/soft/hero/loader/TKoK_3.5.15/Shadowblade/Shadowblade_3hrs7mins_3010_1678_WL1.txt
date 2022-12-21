@@ -1,0 +1,16 @@
+function PreloadFiles takes nothing returns nothing
+
+	call Preload( " Name: Emisar" )
+	call Preload( " Hero: Shadowblade" )
+	call Preload( " Level: 14" )
+	call Preload( " EXP: 3010" )
+	call Preload( " Gold: 1678" )
+	call Preload( " Star Glass: 0" )
+	call Preload( "---------------------------------------" )
+	call Preload( " Code: -l 6RVTtK2f!mY1CezOe2t7MtKxnxzUJwbziYrphbxWpqXltmTMsiK92jNoo5rVCs6!P6m5qzvggvnupSp!SB2c5?mIODuXC8bM!urWckXaOZAMnvOAoc1ZKNo33MYC" )
+	call Preload( "       -l2 qjbvQ2KArNpPnW53WKQakQ2ECE59i4V5Jp!YDVEeY6uBQNXkZJ1QvRmIIz!bnZqr1qNz65TFFTCXYdYrdlK?zcNo3hXunHVkrX!e?Mu73sfkCT3fI?Ps2K4NNrZ" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

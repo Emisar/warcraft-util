@@ -1,0 +1,123 @@
+============================ Значения для комманд для мыши ============================
+
+NOBUTTON = 0
+BUTTON1 = 1
+BUTTON2 = 2
+BUTTON3 = 3
+
+============================ Значение клавиш клавиатуры ============================
+
+Общий шаблон для выбора клавиши такой "VK_" + имя клавиши слитно и заглавными буквами.
+
+============================ ============================ ============================
+
+----- Lock keys -----
+VK_NUM_LOCK = "Num Lock"
+VK_CAPS_LOCK = "Caps Lock"
+VK_SCROLL_LOCK = "Scroll lock"
+
+----- Symbols keys -----
+VK_MINUS = "-"
+VK_EQUALS = "="
+VK_OPEN_BRACKET = "["
+VK_CLOSE_BRACKET = "]"
+VK_SLASH = "/"
+VK_BACK_SLASH = "\"
+VK_QUOTE = "'"
+VK_BACKQUOTE = "`"
+VK_COMMA = ","
+VK_PERIOD = "."
+VK_SEMICOLON = ";"
+VK_SPACE = " "
+
+----- Functional keys -----
+VK_ENTER = "Enter"
+VK_ESCAPE = "Escape"
+VK_BACKSPACE = "Backspace"
+VK_PRINTSCREEN = "Print Screen"
+VK_PAUSE = "Pause"
+VK_TAB = "Tab"
+
+----- Constants for the 0 through 9 keys -----
+VK_F1		VK_F13
+VK_F2		VK_F14
+VK_F3		VK_F15
+VK_F4		VK_F16
+VK_F5		VK_F17
+VK_F6		VK_F18
+VK_F7		VK_F19
+VK_F8		VK_F20
+VK_F9		VK_F21
+VK_F10		VK_F22
+VK_F11		VK_F23
+VK_F12		VK_F24
+
+----- Constants for the 0 through 9 keys -----
+VK_1
+VK_2
+VK_3
+VK_4
+VK_5
+VK_6
+VK_7
+VK_8
+VK_9
+VK_0
+
+----- Constants for the A through Z keys -----
+VK_A		VK_N
+VK_B		VK_O
+VK_C		VK_P
+VK_D		VK_Q
+VK_E		VK_R
+VK_F		VK_S
+VK_G		VK_T
+VK_H		VK_U
+VK_I		VK_V
+VK_J		VK_W
+VK_K		VK_X
+VK_L		VK_Y
+VK_M		VK_Z
+
+----- Numpad keys -----
+VK_KP_UP = "Up Arrow Key Numpad"
+VK_KP_DOWN = "Down Arrow Key Numpad"
+VK_KP_LEFT = "Left Arrow Key Numpad"
+VK_KP_RIGHT = "Right Arrow Key Numpad"
+
+VK_NUMPAD0 = "0"
+VK_NUMPAD1 = "1"
+VK_NUMPAD2 = "2"
+VK_NUMPAD3 = "3"
+VK_NUMPAD4 = "4"
+VK_NUMPAD5 = "5"
+VK_NUMPAD6 = "6"
+VK_NUMPAD7 = "7"
+VK_NUMPAD8 = "8"
+VK_NUMPAD9 = "9"
+
+VK_ADD = "+"
+VK_SUBTRACT = "-"
+VK_MULTIPLY = "*"
+VK_DIVIDE = "/"
+VK_DECIMAL = "."
+
+----- Edit Key Zone -----
+VK_INSERT = "Insert"
+VK_DELETE = "Delete"
+VK_HOME = "Home"
+VK_END = "End"
+VK_PAGE_UP = "Page Up"
+VK_PAGE_DOWN = "Page Down"
+
+----- Begin Cursor Key Zone -----
+VK_UP = "Up Arrow Key"
+VK_LEFT = "Left Arrow Key"
+VK_RIGHT = "Right Arrow Key"
+VK_DOWN = "Down Arrow Key"
+
+----- Modifier and Control Keys -----
+VK_SHIFT = "Shift"
+VK_CONTROL = "Control"
+VK_ALT = "Alt" or "Option"
+VK_META = "Windows" or "Command"

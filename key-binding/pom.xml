@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>warcraft-util</artifactId>
+    <groupId>com.anton.soft</groupId>
+    <version>0.0.1</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>key-binding</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>key-binding-dto</module>
+    <module>key-binding-util</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <key-binding-dto.version>0.0.1</key-binding-dto.version>
+    <key-binding-util.version>0.0.1</key-binding-util.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.anton.soft</groupId>
+        <artifactId>key-binding-dto</artifactId>
+        <version>${key-binding-dto.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.anton.soft</groupId>
+        <artifactId>key-binding-util</artifactId>
+        <version>${key-binding-util.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>

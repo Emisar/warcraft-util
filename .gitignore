@@ -1,0 +1,7 @@
+# Project exclude paths
+/desktop-application/target/
+/hero-loader/hero-loader-dto/target/
+/hero-loader/hero-loader-util/target/
+/key-binding/key-binding-dto/target/
+/key-binding/key-binding-util/target/
+/util/target/
